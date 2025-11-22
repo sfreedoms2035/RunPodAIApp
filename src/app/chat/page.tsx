@@ -6,7 +6,7 @@ import { useAppStore } from "@/lib/store";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { ChatMessage } from "@/components/chat/ChatMessage";
-import { Send, Image as ImageIcon, Mic } from "lucide-react";
+import { Send, Image as ImageIcon, Mic, Bot } from "lucide-react";
 
 export default function ChatPage() {
     const { messages, addMessage, isConnected } = useAppStore();
